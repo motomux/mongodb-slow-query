@@ -1,6 +1,6 @@
 {
   "name": "mongodb-slow-query",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to tail slow query on MongoDB for Node.js",
   "main": "lib/index.js",
   "scripts": {
