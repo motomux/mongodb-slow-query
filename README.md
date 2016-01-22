@@ -10,7 +10,7 @@ npm install -S mongodb-slow-query
 ## Usage
 
 ```
-var mongoDbSlowQuery = require('mongoDbSlowQuery');
+var mongoDbSlowQuery = require('mongodb-slow-query');
 
 var watcher = mongoDbSlowQuery.watcher({ url: 'MONGODB_URL' });
 watcher.connect(function(err) {
