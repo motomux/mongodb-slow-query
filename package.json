@@ -1,6 +1,6 @@
 {
   "name": "mongodb-slow-query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library to tail slow query on MongoDB for Node.js",
   "main": "lib/index.js",
   "scripts": {
@@ -14,6 +14,16 @@
     "type": "git",
     "url": "git+https://github.com/motomux/mongodb-slow-query.git"
   },
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "database",
+    "db",
+    "slow-query",
+    "query",
+    "tail",
+    "watch"
+  ],
   "author": "motomux",
   "license": "MIT",
   "bugs": {
