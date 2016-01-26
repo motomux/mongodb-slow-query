@@ -4,10 +4,10 @@
   "description": "A library to tail slow query on MongoDB for Node.js",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node_modules/.bin/gulp build",
-    "clean": "node_modules/.bin/gulp clean",
-    "dev": "node_modules/.bin/gulp dev",
-    "test": "node_modules/.bin/gulp test",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "dev": "gulp dev",
+    "test": "gulp test",
     "prepublish": "npm run build"
   },
   "repository": {
