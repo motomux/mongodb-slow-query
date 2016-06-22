@@ -15,16 +15,16 @@ var mongoDbSlowQuery = require('mongodb-slow-query');
 var watcher = mongoDbSlowQuery.watcher({ url: 'MONGODB_URL' });
 watcher.connect(function(err) {
   if (err) {
-    logger.error(err);
+    console.error(err);
   } else {
     watcher.on('data', function(data) {
-      logger.info(data);
+      console.info(data);
     });
     watcher.on('end', function() {
-      logger.info('watcher emits end.');
+      console.info('watcher emits end.');
     });
     watcher.on('close', function() {
-      logger.error('watcher emits close.');
+      console.error('watcher emits close.');
     });
   }
 });
